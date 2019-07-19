@@ -216,7 +216,7 @@ namespace TrtlBotSharp
                         var Response = new EmbedBuilder();
                         Response.WithTitle(string.Format("{0} wants to tip you!", _client.GetUser(Reaction.UserId).Username));
                         Response.Description = string.Format("Register your wallet with with `{0}registerwallet <your {1} address>` " +
-                            "to get started!\nTo create a wallet head to https://turtlecoin.lol/wallet/\nExtra Help: http://docs.turtlecoin.lol/",
+                            "to get started!\nTo create a wallet head to https://mcn.green/paperwallet-generator.html",
                             botPrefix, coinSymbol);
 
                         // Send reply
